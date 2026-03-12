@@ -1,8 +1,8 @@
 body {
     font-family: 'Arial', sans-serif;
     margin: 20px;
-    background-color: #f9f9f9;
-    color: #333;
+    background-color: #000; /* Fundo preto */
+    color: #fff; /* Letras brancas */
 }
 
 h1 {
@@ -18,11 +18,18 @@ h2 {
     animation: slideIn 0.5s forwards;
 }
 
+header {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 1.2em;
+    color: #4CAF50;
+}
+
 table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
     transition: transform 0.2s;
 }
 
@@ -43,7 +50,7 @@ th {
 }
 
 tr:hover {
-    background-color: #f1f1f1;
+    background-color: #444; /* Cor de fundo ao passar o mouse */
 }
 
 ul {
